@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://orbita.local/tv" version="0.4.0" viewmodes="maximized">
+  <name>Órbita TV</name>
+  <content src="index.html"/>
+  <icon src="icon.png"/>
+  <tizen:application id="OrbitaTV01.Main" package="OrbitaTV01" required_version="6.0"/>
+  <access origin="https://archivos.meteochile.gob.cl" subdomains="false"/>
+  <tizen:privilege name="http://tizen.org/privilege/internet"/>
+  <tizen:profile name="tv-samsung"/>
+  <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" install-location="auto" hwkey-event="enable"/>
+  <tizen:privilege name="http://tizen.org/privilege/application.info"/>
+  <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+</widget>

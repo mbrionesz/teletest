@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Órbita TV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wallpaper" aria-hidden="true"></div>
+  <header>
+    <div class="brand"><span class="orbit">◒</span> ÓRBITA <span class="tv">TV</span></div>
+    <nav aria-label="Navegación principal">
+      <button data-page="home" class="nav active">Inicio</button>
+      <button data-page="library" class="nav">Aplicaciones</button>
+      <button data-page="settings" class="nav">Ajustes</button>
+    </nav>
+    <div class="clock"><time id="clock"></time><span id="date"></span></div>
+  </header>
+  <main id="main"></main>
+  <footer><span id="device">Tu espacio. A tu ritmo.</span><span>↑ ↓ ← → Navegar <b>OK</b> Abrir <b>Atrás</b> Volver</span></footer>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <div id="modal" class="overlay" hidden></div>
+  <script src="$WEBAPIS/webapis/webapis.js"></script>
+  <script src="platform.js"></script>
+  <script src="weather-config.js"></script>
+  <script src="dmc.js"></script>
+  <script src="weather.js"></script>
+  <script src="profile.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
